@@ -7,7 +7,7 @@
 	<img src="./asset/Readme.png" width="900">
 </p>
 
-* Pour voir le portfolio en question : **[PhilDaiguille](https://github.com/firebebane/ePortfolio)**.
+* Pour voir le portfolio en question : **[Bilal Bebane](https://github.com/firebebane/ePortfolio)**.
 
 # Credits
 
