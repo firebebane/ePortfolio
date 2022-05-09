@@ -7,8 +7,11 @@
 	<img src="./asset/image/wallpaper.png" width="900">
 </p>
 
-* Pour voir le portfolio en question : **[Bilal Bebane](https://firebebane.github.io/ePortfolio/)**.
+* Pour voir le portfolio : **[Bilal Bebane](https://firebebane.github.io/ePortfolio/)**.
+* 
+#### Logs
 
+<p>fin des dernier modification = 03:44 </p>
 # Credits
 
 * [**Bilal Bebane**](https://github.com/firebebane) : Développeur front-end.
