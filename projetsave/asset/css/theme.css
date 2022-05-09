@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    border: 0rem;
+    outline: 0rem;
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+    font-family: 'Fredoka One', cursive;
+    user-select: none;
+    text-transform: none;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #399E5A;
+    font-size: 1.6em;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    background-color: #2c6133;
+    width: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2c8d4d;
+}
+
+.header {
+    background-color: #2c6133;
+    display: block;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 6.5rem;
+    box-shadow: rgba(0, 0, 0, 0.507) 0rem 0rem 5rem;
+}
+
+.headerbox {
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.header>.headerbox>h2 {
+    line-height: 15rem;
+    display: block;
+    color: #fff;
+}
+
+.header>.headerbox>h2>img {
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+
+.main h2,
+.main p {
+    color: #fff;
+    text-align: center;
+}
+
+.c_t_1 {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 5rem;
+}
+
+.grid_sct {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(25rem, auto);
+    background-color: #2c61333f;
+    padding: 2rem 2rem 0rem 2rem;
+    border-radius: 2rem;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.555) 0rem 0rem 5rem;
+}
+
+.grid_sct img {
+    border-radius: 0.5rem;
+    outline: #2c6133a9 solid 0.3rem;
+    margin: 0 auto;
+    display: block;
+    transform: scale(1);
+    z-index: 1;
+    transition: transform 0.5s, outline ease-in-out 0.5s;
+}
+
+.grid_sct>img:hover {
+    outline: #00000057 solid 0.6rem;
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.411) 0rem 0rem 3rem;
+    transition: transform ease-in-out 0.25s, outline ease-in-out 0.25s, tr;
+}
+
+.a8424us {
+    display: block;
+    background-color: #2c6133;
+    width: 40rem;
+    height: 5rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-radius: 5rem;
+    transition: color ease-in-out 0.15s, background-color ease-in-out 0.15s, transform ease-in-out 0.15s;
+}
+
+.a8424us:hover {
+    cursor: pointer;
+    background-color: #2c6133b9;
+    color: #fff;
+    transition: color ease-in-out 0.25s, background-color ease-in-out 0.25s, transform ease-in-out 0.25s;
+    transform: scale(1.1);
+}
+
+.footer {
+    margin-top: 5rem;
+    line-height: 7rem;
+    background-color: #2c6133;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.582);
+    text-align: center;
+}
+
+.formulaire {
+    margin: 0 auto;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.548) 0rem 0rem 5rem;
+    margin-top: 5rem;
+    padding: 2.5rem 5rem;
+}
+
+.formulaire>h3 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: #2c6133 solid 0.3rem;
+    margin-bottom: 1rem;
+    color: #2c6133;
+}
+
+.formulaire h5 {
+    color: #ff00006e;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formulaire>div>label {
+    color: #2c6133;
+}
+
+.formulaire>div>input {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    line-height: 5rem;
+    background-color: #0000002c;
+    border-radius: 1.5rem;
+    color: #000000b0;
+}
+
+.formulaire>div>input::placeholder {
+    padding-left: 2rem;
+    line-height: 5rem;
+    border-radius: 2.5rem;
+}
+
+.formulaire>input[type="submit"] {
+    display: block;
+    width: 80%;
+    background-color: #1d4222;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 1.45rem;
+    height: 3rem;
+    margin-top: 2rem;
+    transition: transform ease-in-out 0.25s;
+}
+
+.formulaire>input[type="submit"]:hover {
+    transform: scale(1.1);
+    text-align: center;
+    transition: transform ease-in-out 0.25s;
+    cursor: pointer;
+}
+
+.formulaire>div>select {
+    width: 100%;
+    display: block;
+    background-color: #0000002c;
+    height: 5rem;
+    padding-left: 2rem;
+    border-radius: 1.5rem;
+    color: #000000b0;
+}
+
+.msgalertprint {
+    background-color: #1d4222;
+    width: 40%;
+    margin: 0 auto;
+    height: 4rem;
+    display: block;
+    position: fixed;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 9999;
+    border-radius: 1rem 1rem 0rem 0rem;
+    box-shadow: #000000a4 0rem 0rem 5rem;
+    outline: solid #00000065 0.3rem;
+    transition: bottom 1s ease-in-out;
+}
+
+.msgalertprint2 {
+    background-color: #1d4222;
+    width: 40%;
+    margin: 0 auto;
+    height: 4rem;
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 9999;
+    border-radius: 1rem 1rem 0rem 0rem;
+    box-shadow: #000000a4 0rem 0rem 5rem;
+    outline: solid #00000065 0.3rem;
+    transition: bottom 1s ease-in-out;
+}
+
+.alert {
+    width: 100%;
+    line-height: 4rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        overflow-x: hidden;
+    }
+    .grid_sct {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .a8424us {
+        width: 20rem;
+    }
+    .footer>p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header>.headerbox>h2 {
+        display: block;
+        color: #fff;
+        font-size: 1rem;
+        position: relative;
+        top: -5rem;
+    }
+    .header>.headerbox>h2>img {
+        display: block;
+        text-align: center;
+        margin-right: 2rem;
+        width: 20%;
+        margin: 0 auto;
+        position: relative;
+        top: 6rem;
+    }
+    .grid_sct {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .a8424us {
+        width: 20rem;
+    }
+    .footer>p {
+        font-size: 50.5%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+    .grid_sct {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .a8424us {
+        width: 20rem;
+    }
+    .footer>p {
+        font-size: 1.5rem;
+    }
+}

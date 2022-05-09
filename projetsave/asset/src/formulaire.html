@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilalStreaming - Formulaire</title>
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="icon" href="../image/logo.png">
+</head>
+
+<body id="screengui">
+    <header class="header">
+        <section class="headerbox">
+            <h2><img src="../image/logo.png" alt="100" sizes="100x100">Films, séries TV et bien plus en illimité</h2>
+        </section>
+    </header>
+    <main>
+        <section class="grid_sct">
+            <img src="../image/template11.png" alt="">
+            <img src="../image/template12.png" alt="">
+            <img src="../image/template13.png" alt="">
+            <img src="../image/template14.png" alt="">
+            <img src="../image/template15.png" alt="">
+        </section>
+        <form action="#" method="get" class="formulaire" name="formulaire">
+            <h3>Remplissez le formulaire</h3>
+            <h5>
+                * champs obligatoire
+            </h5>
+            <div>
+                <label for="name">Name *</label>
+                <input type="text" name="name" id="name" placeholder="Name" maxlength="30" required>
+            </div>
+            <div>
+                <label for="prenom">Prénom *</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom" maxlength="30" required>
+            </div>
+            <div>
+
+                <label for="email">E-mail *</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" maxlength="60" required>
+            </div>
+            <div>
+                <label for="ville">Ville *</label>
+                <select name="ville" id="ville" required>
+                    <option value="" selected>-- choisir une vile</option>
+                    <option value="Abilly">Abilly</option>
+                    <option value="Abitain">Abitain</option>
+                    <option value="Abjat-sur-Bandiat">Abjat-sur-Bandiat</option>
+                    <option value="Ablain-Saint-Nazaire">Ablain-Saint-Nazaire</option>
+                </select>
+            </div>
+            <div>
+                <label for="pays">Pays *</label>
+                <select name="pays" id="pays" required>
+                    <option value="" selected>-- choisir un pays</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Afrique">Afrique du Sud</option>
+                    <option value="Albanie">Albanie</option>
+                    <option value="Algérie">Algérie</option>
+                </select>
+            </div>
+            <input type="submit" value="Valider" id="submit">
+        </form>
+    </main>
+    <footer class="footer">
+        <p>© Tous droits réservés - Bilal Bebane - Streaming</p>
+    </footer>
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
